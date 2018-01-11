@@ -7,7 +7,10 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface BugsaverView : ScreenSaverView
-
+@property (strong) AVPlayer *player;
+@property (strong) AVPlayerLayer *playerLayer;
+-(void)playerItemDidReachEnd:(NSNotification *)notification;
 @end
