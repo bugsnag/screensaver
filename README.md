@@ -1,3 +1,6 @@
+
+![](https://github.com/bugsnag/screensaver/raw/master/docs/preview.gif)
+
 # Installation
 
 1. Download the screensaver [here](https://github.com/bugsnag/screensaver/releases/download/v0.0.1/Bugsaver.saver.zip)
