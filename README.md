@@ -1,4 +1,9 @@
-## Development
+# Installation
+
+1. Download the screensaver [here](https://github.com/bugsnag/screensaver/releases/download/v0.0.1/Bugsaver.saver.zip)
+2. Unzip the file and double click to install.
+
+# Development
 
 ### Building and Installing
 
