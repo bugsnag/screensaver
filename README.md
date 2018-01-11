@@ -8,9 +8,19 @@
 
 # Development
 
+### Changing the animation
+
+The screensaver application essentially just renders the video at
+[Bugsaver/Animation.mp4](https://github.com/bugsnag/screensaver/blob/master/Bugsaver/Animation.mp4).
+
+This video is generated from the [screensaver.aep](https://github.com/bugsnag/screensaver/blob/master/screensaver.aep) After Effects document.
+
+In order to modify the animation, edit the after effects document and generate a new video. Then proceed to the build instructions below.
+
+
 ### Building and Installing
 
-1. Open Bugsaver.xcodeproj
+1. Open Bugsaver.xcodeproj in Xcode
 2. Build using (CMD-SHIFT-R)
 3. Find the Bugsaver.saver file in the file navigator (in the Products folder).
    Right click it and select "Open with External Editor"
