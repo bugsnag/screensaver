@@ -21,7 +21,7 @@
         self.playerLayer = [AVPlayerLayer playerLayerWithPlayer:self.player];
         self.layer = [[CALayer alloc] init];
         self.wantsLayer = true;
-        self.layer.backgroundColor = [[NSColor blueColor] CGColor];
+        self.layer.backgroundColor = [[NSColor blackColor] CGColor];
         self.layer.needsDisplayOnBoundsChange = true;
         self.animationTimeInterval = 1 / 30.0;
         self.layer.frame = self.bounds;
